@@ -4,7 +4,7 @@ This is a repository, where i will upload the porjects I complete and think are 
 ## Point of the Project
 - Hone my python and coding skills
 - Improve as a programmer
-- Learn Git anf GitHub
+- Learn Git and GitHub
 
 Everyone is welcome to upload their projects.
 
