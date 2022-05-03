@@ -48,7 +48,14 @@ def user_word():
 def user_number():
     while True:
         number = input("Which number do you want to count?\n").strip()
-        if not number.isdigit():
+        if '-' in number:
+            num = number.replace('-','')
+            if not num.isdigit():
+                print("This is not a valid answer.")
+                continue
+            else:
+                break
+        elif not number.isdigit():
             print("This is not a valid answer.")
             continue
         else:
