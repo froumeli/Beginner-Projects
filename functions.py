@@ -1,3 +1,5 @@
+#Functions used in counter.py
+
 import re
 
 def text_or_file():
@@ -93,3 +95,15 @@ def new_text():
 def word_counter(list: list):
     word_count = {w: list.count(w) for w in list}
     return(word_count)
+
+#Functions used in 2nd_deg_pol_root.py
+
+def other_pol():
+    while True:
+        othp = input("Do you want to find the root of another polynomila?(y/n)").strip()
+        if othp != 'y' and othp != 'n':
+            print("This is not a valid answer.")
+            continue
+        else:
+            break
+    return(othp)
