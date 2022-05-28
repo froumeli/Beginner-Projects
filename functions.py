@@ -1,6 +1,7 @@
 #Functions used in counter.py
 
 import re
+import random
 
 def text_or_file():
     while True:
@@ -100,7 +101,7 @@ def word_counter(list: list):
 
 def other_pol():
     while True:
-        othp = input("Do you want to find the root of another polynomila?(y/n)").strip()
+        othp = input("Do you want to find the root of another polynomial?(y/n)").strip()
         if othp != 'y' and othp != 'n':
             print("This is not a valid answer.")
             continue
