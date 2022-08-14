@@ -1,6 +1,4 @@
-from os import times
 import random
-from unicodedata import digit
 
 def guess():
     while True:
